@@ -1,0 +1,95 @@
+.Home{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+}
+
+.kiri {
+    width: 20%;
+    height: 100vh;
+    background-color: #f9b301;
+    position: absolute;
+    z-index: -999999;
+    transition: width 0.2s;
+}
+
+.linkNavbar:hover {
+    background-color: transparent;
+    border-bottom: 5px solid #f9b301;
+}
+
+li{
+    line-height: normal;
+}
+
+nav{
+    line-height: 0px;
+}
+
+.kanan {
+    width: 70%;
+    position: absolute;
+    z-index: -999999;
+}
+
+.photo-home{
+    height:85%;
+    background-color: blue;
+    background-image: url('../img/kucing-1.gif');
+    background-size: 100% 100%;
+    transition: background-image 1s;
+}
+
+.geser-gambar:hover {
+    background-color: #f9b301c7; 
+}
+
+.geser-gambar{
+    background-color: #f9b301;
+    height: 100%;
+    width: 100%;
+}
+
+#satu, #dua {
+    transition : color 1s;
+}
+
+.text-number-home {
+    color:#f9b301;
+    font-size: 16px;
+    width:100%;
+}
+
+.tool-photo {
+    height: 15%;
+    background-color: black;
+}
+.tool-photos {
+    height: 15%;
+}
+
+.kotak {
+    height: 500px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.kotak-form{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.btn {
+    width: 100%;
+    background-color: #f9b301;
+    height: 85px;
+}
+
+input#name {
+    margin: 0px;
+    padding-left: 20px;
+    height:85px
+}

@@ -1,0 +1,14 @@
+.button-profile{
+    border-radius: 50px;
+    width: 200px;
+    height: auto;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    font-size: 18px;
+}
+
+.button-profile:active{
+    background-color: black;
+    color: white;
+}

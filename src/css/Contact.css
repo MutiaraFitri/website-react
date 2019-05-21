@@ -1,0 +1,17 @@
+.kiri-contact {
+    width:100%;
+    margin-top: -64px;
+}
+
+.Contact {
+    height: auto;
+    background-attachment: fixed;
+}
+
+.isi {
+    padding: 0px 20px;
+}
+
+::placeholder {
+    color: #7e8084;
+}
